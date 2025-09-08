@@ -1,10 +1,10 @@
-<p align="center"><a href="https://viper.casino/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/516/original/77HurxHeGIwbNfvJYzR4BTuQiNVEBlVIPdNGKYij.png?1706910392" width="400" alt="Viper Logo"></a></p>
+<p align="center"><a href="https://www.mariobet.com/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/516/original/77HurxHeGIwbNfvJYzR4BTuQiNVEBlVIPdNGKYij.png?1706910392" width="400" alt="Viper Logo"></a></p>
 
-<p align="center"><a href="https://viper.casino/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/515/full/viper2.png?1706910312" width="600" alt="Viper Logo"></a></p>
+<p align="center"><a href="https://www.mariobet.com/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/515/full/viper2.png?1706910312" width="600" alt="Viper Logo"></a></p>
 
-## Sobre a Viper
+## Sobre a mariobet
 
-O Viper é uma plataforma de cassino online desenvolvida utilizando Laravel e Filamentphp. A plataforma oferece uma variedade de funcionalidades, incluindo modelos de remuneração CPA e Revshare, além de integrar os principais provedores de jogos do mercado.
+O mario é uma plataforma de cassino online desenvolvida utilizando Laravel e Filamentphp. A plataforma oferece uma variedade de funcionalidades, incluindo modelos de remuneração CPA e Revshare, além de integrar os principais provedores de jogos do mercado.
 O cassino tem recursos como:
 
 - Autenticação com Google.
@@ -62,8 +62,8 @@ https://seusite.com/suitpay/callback
 
 ### Equipe
 
-- **[Victor Salatiel (Criador)](https://www.instagram.com/victormsalatiel/)**
-- **[Geosimar G (Contribuinte)](https://www.linkedin.com/in/geosimargomes/)**
+- **[Salmoneusoficial (Criador)](https://www.instagram.com/salmoneusoficial/)**
+- **[ (Contribuinte)](https://www.linkedin.com/in//)**
 
 
 Esta é uma versão simplificada do nosso projeto; contudo, dispomos de outras versões mais avançadas e abrangentes.
