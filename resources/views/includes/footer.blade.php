@@ -56,7 +56,7 @@
                 </div>
                 <div>
                     <p class="mb-0">©{{ date('Y') }} {{ env('APP_NAME') }} TODOS OS DIREITOS RESERVADOS</p>
-                    <p><small>Desenvolvido &#9829; por: <a href="https://www.instagram.com/victormsalatiel" class="text-success">Victormsalatiel</a></small></p>
+                    <p><small>Desenvolvido &#9829; por: <a href="https://www.instagram.com/salmoneusoficial" class="text-success">Salmoneusoficial</a></small></p>
                 </div>
 
             </div>
