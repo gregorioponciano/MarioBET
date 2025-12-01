@@ -1,6 +1,6 @@
 <p align="center"><a href="https://viper.casino/" target="_blank"><img src="/public/image/gp.jpeg" width="400" alt="MarioBET Logo"></a></p>
 
-<p align="center"><a href="https://viper.casino/" target="_blank"><img src="/public/image/mariobet.png" width="300" alt="MarioBET Logo"></a></p>
+<p align="center"><a href="https://viper.casino/" target="_blank"><img src="/public/image/mariobet.png" width="100" alt="MarioBET Logo"></a></p>
 
 ## Sobre o MarioBET
 
