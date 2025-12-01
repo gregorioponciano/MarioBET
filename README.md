@@ -1,6 +1,6 @@
-<p align="center"><a href="https://viper.casino/" target="_blank"><img src="/public/image/gp.jpeg" width="400" alt="MarioBET Logo"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="/public/image/gp.jpeg" width="400" alt="MarioBET Logo"></a></p>
 
-<p align="center"><a href="https://viper.casino/" target="_blank"><img src="/public/image/mariobet.png" width="150" alt="MarioBET Logo"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="/public/image/mariobet.png" width="150" alt="MarioBET Logo"></a></p>
 
 ## Sobre o MarioBET
 
@@ -9,15 +9,12 @@ O cassino tem recursos como:
 
 - Autenticação com Google.
 - Sistema de Afiliados com RevShare e CPA.
-- Integração com Games Slotegrator.
-- Integração com Games Salsa.
-- Integração com Games Fivers, método Seamless
+- Integração com Games.
 - Sistema de Notificação.
 - Painel de Controle.
 - Gateway de Pagamento BsPay.
 - Gateway de Pagamento Suitpay.
 - Customização dos Banners e Slide.
-- Painel da Fivers.
 - e outros.
 
 ## Instalação
