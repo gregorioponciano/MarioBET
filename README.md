@@ -2,9 +2,9 @@
 
 <p align="center"><a href="https://viper.casino/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/515/full/viper2.png?1706910312" width="600" alt="MarioBET Logo"></a></p>
 
-## Sobre a Viper
+## Sobre o MarioBET
 
-O Mario é uma plataforma de cassino online desenvolvida utilizando Laravel e Filament php. A plataforma oferece uma variedade de funcionalidades, incluindo modelos de remuneração CPA e Revshare, além de integrar os principais provedores de jogos do mercado.
+O MarioBET é uma plataforma de cassino online desenvolvida utilizando Laravel e Filament php. A plataforma oferece uma variedade de funcionalidades, incluindo modelos de remuneração CPA e Revshare, além de integrar os principais provedores de jogos do mercado.
 O cassino tem recursos como:
 
 - Autenticação com Google.
