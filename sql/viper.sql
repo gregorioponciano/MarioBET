@@ -5,7 +5,7 @@
  Source Server Type    : MySQL
  Source Server Version : 50736 (5.7.36)
  Source Host           : localhost:3306
- Source Schema         : viper
+ Source Schema         : GPWebSolution
 
  Target Server Type    : MySQL
  Target Server Version : 50736 (5.7.36)
@@ -13,7 +13,8 @@
 
  Date: 02/02/2024 13:58:09
 */
-
+CREATE DATABASE IF NOT EXISTS `cassino` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `cassino`;
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
@@ -118,6 +119,26 @@ CREATE TABLE `categories`  (
 -- ----------------------------
 INSERT INTO `categories` VALUES (1, 'Recomendados', 'Todos os jogos recomendados', 'uploads/WVLcCZ4gGDgP1OPcv3M9y1BAnmOqU6-metadGVzb3VyZS5wbmc=-.png', 'recomendados', '2023-12-29 15:57:17', '2023-12-29 15:57:17');
 INSERT INTO `categories` VALUES (2, 'Jogos da Fortuna', 'Lista de Jogos da fortuna', 'uploads/TXQREUiwee0dFOlYYUul0luttRMvWb-metadGlnZXItMi5wbmc=-.png', 'jogos-da-fortuna', '2023-12-29 15:58:34', '2023-12-29 15:58:34');
+
+
+-- Tabela customizations
+CREATE TABLE customizations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    card_type VARCHAR(100),
+    header_type VARCHAR(100),
+    side_type VARCHAR(100),
+    footer_type VARCHAR(100),
+    primary_color VARCHAR(20),
+    primary_border_color VARCHAR(20),
+    primary_text VARCHAR(255),
+    secondary_color VARCHAR(20),
+    background_color VARCHAR(20),
+    footer_color VARCHAR(20),
+    expanded_layout TINYINT(1) DEFAULT 0, -- 0 = padrão, 1 = expandido
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
 
 -- ----------------------------
 -- Table structure for debug
