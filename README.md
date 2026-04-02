@@ -1,74 +1,56 @@
-<p align="center"><a href="#" target="_blank"><img src="/public/image/gp.jpeg" width="400" alt="MarioBET Logo"></a></p>
+<p align="center">
+  <a href="https://github.com/gregorioponciano/MarioBET">
+    <img src="/public/image/gp.jpeg" width="400" alt="GP Web Solution Logo">
+  </a>
+</p>
 
-<p align="center"><a href="#" target="_blank"><img src="/public/image/mariobet.png" width="150" alt="MarioBET Logo"></a></p>
+<p align="center">
+  <img src="/public/image/mariobet.png" width="180" alt="MarioBET Logo">
+</p>
 
-## Sobre o MarioBET
+<h1 align="center">MarioBET - Plataforma de iGaming</h1>
 
-O MarioBET é uma plataforma de cassino online desenvolvida utilizando Laravel e Filament php. A plataforma oferece uma variedade de funcionalidades, incluindo modelos de remuneração CPA e Revshare, além de integrar os principais provedores de jogos do mercado.
-O cassino tem recursos como:
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-10-FF2D20?style=for-the-badge&logo=laravel" alt="Laravel 10">
+  <img src="https://img.shields.io/badge/Filament-PHP-FFA116?style=for-the-badge&logo=laravel" alt="Filament PHP">
+  <img src="https://img.shields.io/badge/PHP-8.1-777BB4?style=for-the-badge&logo=php" alt="PHP 8.1">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT">
+</p>
 
-- Autenticação com Google.
-- Sistema de Afiliados com RevShare e CPA.
-- Integração com Games.
-- Sistema de Notificação.
-- Painel de Controle.
-- Gateway de Pagamento BsPay.
-- Gateway de Pagamento Suitpay.
-- Customização dos Banners e Slide.
-- e outros.
+---
 
-## Instalação
+## 📝 Sobre o Projeto
 
-A instalação é bastante simples, seguindo os padrões de projetos do Laravel. Você apenas necessita de um servidor com os [requisitos 
-exigidos para executar um projeto Laravel 10](https://laravel.com/docs/7.x#server-requirements). Abaixo, disponibilizamos alguns vídeos que orientam sobre a configuração da hospedagem VPS para o projeto.
+O **MarioBET** é uma solução completa de cassino online e apostas desenvolvida com o ecossistema **Laravel** e **Filament PHP**. A plataforma foi desenhada para oferecer alta performance, facilidade de gestão via painel administrativo e integração fluida com os principais provedores de jogos e gateways de pagamento do mercado brasileiro.
 
+### ✨ Funcionalidades Principais
 
-#### Esse Vídeo vai ensinar como configurar o Cloudflare e o domínio.
+| Categoria | Recursos |
+| :--- | :--- |
+| **🕹️ Jogos** | Integração com provedores líderes, Gerenciamento de jogos via Painel. |
+| **👥 Afiliados** | Sistema robusto com modelos de remuneração **CPA** e **RevShare**. |
+| **💰 Pagamentos** | Gateways integrados: **Suitpay** e **BsPay** (com suporte a Callback). |
+| **🔐 Segurança** | Autenticação Social via Google, Sistema de permissões via Painel. |
+| **🎨 Customização** | Gestão de Banners, Sliders e notificações em tempo real. |
 
-[![Watch the video](https://www.youtube.com/watch?v=c1ioNxZ9Zsc)](https://www.youtube.com/watch?v=c1ioNxZ9Zsc)
+---
 
+## 🚀 Guia de Instalação
 
-#### Esse Vídeo vai ensinar a vocês como configurar uma VPS na hostinger para o projeto.
+O projeto segue a estrutura padrão do Laravel 10. Certifique-se de que seu servidor atende aos [requisitos oficiais do Laravel](https://laravel.com/docs/10.x/deployment).
 
-[![Watch the video](https://www.youtube.com/watch?v=c1ioNxZ9Zsc)](https://www.youtube.com/watch?v=c1ioNxZ9Zsc)
+### 📺 Tutoriais em Vídeo
 
+Abaixo, preparamos guias rápidos para ajudar na sua configuração:
 
-1. Você precisa definir a URL do seu site no .env, sem a barra
+| Assunto | Link do Vídeo |
+| :--- | :--- |
+| **Configuração Cloudflare & Domínio** | [Assistir Tutorial ➔](https://www.youtube.com/watch?v=c1ioNxZ9Zsc) |
+| **Configuração de VPS (Hostinger)** | [Assistir Tutorial ➔](https://www.youtube.com/watch?v=c1ioNxZ9Zsc) |
 
-```.env
-    APP_URL=seusiteaqui.com
-```
+### 🛠️ Passo a Passo
 
-2. Você também precisa por as credenciais do seu banco de dados.
-
-```.env
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=nomedodb
-    DB_USERNAME=root
-    DB_PASSWORD=
-```
-
-3. Tem uma pasta chamada sql, com um arquivo Mario.sql, você precisa carregar ele no seu phpMyAdmin
-
-4. Após colocar as chaves do Suitpay, você precisa configurar lá na Suitpay o seu IP, e também o seu endpoint que é:
-```
-https://seusite.com/suitpay/callback
-```
-
-### Equipe
-
-- **[GPWebSolution (Criador)](https://www.instagram.com/gpwebsolution/)**
-
-
-Esta é uma versão simplificada do nosso projeto; contudo, dispomos de outras versões mais avançadas e abrangentes.
-[Siga nossa página para tutoriais e dicas de Igaming](https://www.facebook.com/profile.php?id=61580637924160).
-
-
-
-
-
-
-
-
+1. **Configuração de Ambiente (`.env`):**
+   Defina a URL do seu site (sem a barra final):
+   ```env
+   APP_URL=[https://seusiteaqui.com](https://seusiteaqui.com)
