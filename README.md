@@ -1,6 +1,5 @@
 <p align="center">
   <a href="https://github.com/gregorioponciano/MarioBET">
-    <img src="/public/image/gp.jpeg" width="400" alt="GP Web Solution Logo">
   </a>
 </p>
 
